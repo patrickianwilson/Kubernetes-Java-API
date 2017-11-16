@@ -1,0 +1,37 @@
+
+# IoK8sKubernetesPkgApiV1Volume
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**awsElasticBlockStore** | [**IoK8sKubernetesPkgApiV1AWSElasticBlockStoreVolumeSource**](IoK8sKubernetesPkgApiV1AWSElasticBlockStoreVolumeSource.md) | AWSElasticBlockStore represents an AWS Disk resource that is attached to a kubelet&#39;s host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore |  [optional]
+**azureDisk** | [**IoK8sKubernetesPkgApiV1AzureDiskVolumeSource**](IoK8sKubernetesPkgApiV1AzureDiskVolumeSource.md) | AzureDisk represents an Azure Data Disk mount on the host and bind mount to the pod. |  [optional]
+**azureFile** | [**IoK8sKubernetesPkgApiV1AzureFileVolumeSource**](IoK8sKubernetesPkgApiV1AzureFileVolumeSource.md) | AzureFile represents an Azure File Service mount on the host and bind mount to the pod. |  [optional]
+**cephfs** | [**IoK8sKubernetesPkgApiV1CephFSVolumeSource**](IoK8sKubernetesPkgApiV1CephFSVolumeSource.md) | CephFS represents a Ceph FS mount on the host that shares a pod&#39;s lifetime |  [optional]
+**cinder** | [**IoK8sKubernetesPkgApiV1CinderVolumeSource**](IoK8sKubernetesPkgApiV1CinderVolumeSource.md) | Cinder represents a cinder volume attached and mounted on kubelets host machine More info: https://releases.k8s.io/HEAD/examples/mysql-cinder-pd/README.md |  [optional]
+**configMap** | [**IoK8sKubernetesPkgApiV1ConfigMapVolumeSource**](IoK8sKubernetesPkgApiV1ConfigMapVolumeSource.md) | ConfigMap represents a configMap that should populate this volume |  [optional]
+**downwardAPI** | [**IoK8sKubernetesPkgApiV1DownwardAPIVolumeSource**](IoK8sKubernetesPkgApiV1DownwardAPIVolumeSource.md) | DownwardAPI represents downward API about the pod that should populate this volume |  [optional]
+**emptyDir** | [**IoK8sKubernetesPkgApiV1EmptyDirVolumeSource**](IoK8sKubernetesPkgApiV1EmptyDirVolumeSource.md) | EmptyDir represents a temporary directory that shares a pod&#39;s lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir |  [optional]
+**fc** | [**IoK8sKubernetesPkgApiV1FCVolumeSource**](IoK8sKubernetesPkgApiV1FCVolumeSource.md) | FC represents a Fibre Channel resource that is attached to a kubelet&#39;s host machine and then exposed to the pod. |  [optional]
+**flexVolume** | [**IoK8sKubernetesPkgApiV1FlexVolumeSource**](IoK8sKubernetesPkgApiV1FlexVolumeSource.md) | FlexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin. This is an alpha feature and may change in future. |  [optional]
+**flocker** | [**IoK8sKubernetesPkgApiV1FlockerVolumeSource**](IoK8sKubernetesPkgApiV1FlockerVolumeSource.md) | Flocker represents a Flocker volume attached to a kubelet&#39;s host machine. This depends on the Flocker control service being running |  [optional]
+**gcePersistentDisk** | [**IoK8sKubernetesPkgApiV1GCEPersistentDiskVolumeSource**](IoK8sKubernetesPkgApiV1GCEPersistentDiskVolumeSource.md) | GCEPersistentDisk represents a GCE Disk resource that is attached to a kubelet&#39;s host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk |  [optional]
+**gitRepo** | [**IoK8sKubernetesPkgApiV1GitRepoVolumeSource**](IoK8sKubernetesPkgApiV1GitRepoVolumeSource.md) | GitRepo represents a git repository at a particular revision. |  [optional]
+**glusterfs** | [**IoK8sKubernetesPkgApiV1GlusterfsVolumeSource**](IoK8sKubernetesPkgApiV1GlusterfsVolumeSource.md) | Glusterfs represents a Glusterfs mount on the host that shares a pod&#39;s lifetime. More info: https://releases.k8s.io/HEAD/examples/volumes/glusterfs/README.md |  [optional]
+**hostPath** | [**IoK8sKubernetesPkgApiV1HostPathVolumeSource**](IoK8sKubernetesPkgApiV1HostPathVolumeSource.md) | HostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath |  [optional]
+**iscsi** | [**IoK8sKubernetesPkgApiV1ISCSIVolumeSource**](IoK8sKubernetesPkgApiV1ISCSIVolumeSource.md) | ISCSI represents an ISCSI Disk resource that is attached to a kubelet&#39;s host machine and then exposed to the pod. More info: https://releases.k8s.io/HEAD/examples/volumes/iscsi/README.md |  [optional]
+**name** | **String** | Volume&#39;s name. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names | 
+**nfs** | [**IoK8sKubernetesPkgApiV1NFSVolumeSource**](IoK8sKubernetesPkgApiV1NFSVolumeSource.md) | NFS represents an NFS mount on the host that shares a pod&#39;s lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs |  [optional]
+**persistentVolumeClaim** | [**IoK8sKubernetesPkgApiV1PersistentVolumeClaimVolumeSource**](IoK8sKubernetesPkgApiV1PersistentVolumeClaimVolumeSource.md) | PersistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims |  [optional]
+**photonPersistentDisk** | [**IoK8sKubernetesPkgApiV1PhotonPersistentDiskVolumeSource**](IoK8sKubernetesPkgApiV1PhotonPersistentDiskVolumeSource.md) | PhotonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine |  [optional]
+**portworxVolume** | [**IoK8sKubernetesPkgApiV1PortworxVolumeSource**](IoK8sKubernetesPkgApiV1PortworxVolumeSource.md) | PortworxVolume represents a portworx volume attached and mounted on kubelets host machine |  [optional]
+**projected** | [**IoK8sKubernetesPkgApiV1ProjectedVolumeSource**](IoK8sKubernetesPkgApiV1ProjectedVolumeSource.md) | Items for all in one resources secrets, configmaps, and downward API |  [optional]
+**quobyte** | [**IoK8sKubernetesPkgApiV1QuobyteVolumeSource**](IoK8sKubernetesPkgApiV1QuobyteVolumeSource.md) | Quobyte represents a Quobyte mount on the host that shares a pod&#39;s lifetime |  [optional]
+**rbd** | [**IoK8sKubernetesPkgApiV1RBDVolumeSource**](IoK8sKubernetesPkgApiV1RBDVolumeSource.md) | RBD represents a Rados Block Device mount on the host that shares a pod&#39;s lifetime. More info: https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md |  [optional]
+**scaleIO** | [**IoK8sKubernetesPkgApiV1ScaleIOVolumeSource**](IoK8sKubernetesPkgApiV1ScaleIOVolumeSource.md) | ScaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes. |  [optional]
+**secret** | [**IoK8sKubernetesPkgApiV1SecretVolumeSource**](IoK8sKubernetesPkgApiV1SecretVolumeSource.md) | Secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret |  [optional]
+**storageos** | [**IoK8sKubernetesPkgApiV1StorageOSVolumeSource**](IoK8sKubernetesPkgApiV1StorageOSVolumeSource.md) | StorageOS represents a StorageOS volume attached and mounted on Kubernetes nodes. |  [optional]
+**vsphereVolume** | [**IoK8sKubernetesPkgApiV1VsphereVirtualDiskVolumeSource**](IoK8sKubernetesPkgApiV1VsphereVirtualDiskVolumeSource.md) | VsphereVolume represents a vSphere volume attached and mounted on kubelets host machine |  [optional]
+
+
+
