@@ -1,0 +1,6 @@
+{
+  "invokerPackage": "com.github.patrickianwilson.thirdparty.kubernetes",
+  "modelPackage":"com.github.patrickianwilson.thirdparty.kubernetes.model",
+  "apiPackage": "com.github.patrickianwilson.thirdparty.kubernetes.api",
+  "dateLibrary": "java8"
+}

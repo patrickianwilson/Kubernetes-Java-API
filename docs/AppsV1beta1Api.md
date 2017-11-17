@@ -61,11 +61,11 @@ create a ControllerRevision
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -125,11 +125,11 @@ create a Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -189,11 +189,11 @@ create rollback of a Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -255,11 +255,11 @@ create a StatefulSet
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -319,11 +319,11 @@ delete collection of ControllerRevision
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -393,11 +393,11 @@ delete collection of Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -467,11 +467,11 @@ delete collection of StatefulSet
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -541,11 +541,11 @@ delete a ControllerRevision
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -613,11 +613,11 @@ delete a Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -685,11 +685,11 @@ delete a StatefulSet
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -757,11 +757,11 @@ get available resources
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -813,11 +813,11 @@ list or watch objects of kind ControllerRevision
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -885,11 +885,11 @@ list or watch objects of kind Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -957,11 +957,11 @@ list or watch objects of kind ControllerRevision
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -1031,11 +1031,11 @@ list or watch objects of kind Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -1105,11 +1105,11 @@ list or watch objects of kind StatefulSet
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -1179,11 +1179,11 @@ list or watch objects of kind StatefulSet
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -1251,11 +1251,11 @@ partially update the specified ControllerRevision
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -1317,11 +1317,11 @@ partially update the specified Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -1383,11 +1383,11 @@ partially update scale of the specified Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -1449,11 +1449,11 @@ partially update status of the specified Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -1515,11 +1515,11 @@ partially update the specified StatefulSet
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -1581,11 +1581,11 @@ partially update status of the specified StatefulSet
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -1647,11 +1647,11 @@ read the specified ControllerRevision
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -1715,11 +1715,11 @@ read the specified Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -1783,11 +1783,11 @@ read scale of the specified Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -1847,11 +1847,11 @@ read status of the specified Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -1911,11 +1911,11 @@ read the specified StatefulSet
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -1979,11 +1979,11 @@ read status of the specified StatefulSet
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -2043,11 +2043,11 @@ replace the specified ControllerRevision
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -2109,11 +2109,11 @@ replace the specified Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -2175,11 +2175,11 @@ replace scale of the specified Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -2241,11 +2241,11 @@ replace status of the specified Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -2307,11 +2307,11 @@ replace the specified StatefulSet
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -2373,11 +2373,11 @@ replace status of the specified StatefulSet
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -2439,11 +2439,11 @@ watch individual changes to a list of ControllerRevision
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -2511,11 +2511,11 @@ watch individual changes to a list of Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -2583,11 +2583,11 @@ watch changes to an object of kind ControllerRevision
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -2659,11 +2659,11 @@ watch individual changes to a list of ControllerRevision
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -2733,11 +2733,11 @@ watch changes to an object of kind Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -2809,11 +2809,11 @@ watch individual changes to a list of Deployment
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -2883,11 +2883,11 @@ watch changes to an object of kind StatefulSet
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -2959,11 +2959,11 @@ watch individual changes to a list of StatefulSet
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -3033,11 +3033,11 @@ watch individual changes to a list of StatefulSet
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsV1beta1Api;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsV1beta1Api;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 

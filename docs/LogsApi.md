@@ -17,11 +17,11 @@ Method | HTTP request | Description
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.LogsApi;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.LogsApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -74,11 +74,11 @@ null (empty response body)
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.LogsApi;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.LogsApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 

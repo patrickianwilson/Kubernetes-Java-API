@@ -18,11 +18,11 @@ get information of a group
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.AppsApi;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiClient;
+//import com.github.patrickianwilson.thirdparty.kubernetes.ApiException;
+//import com.github.patrickianwilson.thirdparty.kubernetes.Configuration;
+//import com.github.patrickianwilson.thirdparty.kubernetes.auth.*;
+//import com.github.patrickianwilson.thirdparty.kubernetes.api.AppsApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
