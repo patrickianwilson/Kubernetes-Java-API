@@ -42,7 +42,7 @@ public class IoK8sKubernetesPkgApiV1ServicePort {
   private String protocol = null;
 
   @SerializedName("targetPort")
-  private String targetPort = null;
+  private Integer targetPort = null;
 
   public IoK8sKubernetesPkgApiV1ServicePort name(String name) {
     this.name = name;
@@ -116,7 +116,7 @@ public class IoK8sKubernetesPkgApiV1ServicePort {
     this.protocol = protocol;
   }
 
-  public IoK8sKubernetesPkgApiV1ServicePort targetPort(String targetPort) {
+  public IoK8sKubernetesPkgApiV1ServicePort targetPort(Integer targetPort) {
     this.targetPort = targetPort;
     return this;
   }
@@ -126,11 +126,11 @@ public class IoK8sKubernetesPkgApiV1ServicePort {
    * @return targetPort
   **/
   @ApiModelProperty(value = "Number or name of the port to access on the pods targeted by the service. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME. If this is a string, it will be looked up as a named port in the target Pod's container ports. If this is not specified, the value of the 'port' field is used (an identity map). This field is ignored for services with clusterIP=None, and should be omitted or set equal to the 'port' field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service")
-  public String getTargetPort() {
+  public Integer getTargetPort() {
     return targetPort;
   }
 
-  public void setTargetPort(String targetPort) {
+  public void setTargetPort(Integer targetPort) {
     this.targetPort = targetPort;
   }
 

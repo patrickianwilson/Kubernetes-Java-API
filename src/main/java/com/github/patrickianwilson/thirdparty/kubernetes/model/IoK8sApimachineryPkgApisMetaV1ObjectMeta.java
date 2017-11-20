@@ -13,7 +13,8 @@
 
 package com.github.patrickianwilson.thirdparty.kubernetes.model;
 
-import java.util.Objects;
+import java.util.*;
+
 import com.github.patrickianwilson.thirdparty.kubernetes.model.IoK8sApimachineryPkgApisMetaV1Initializers;
 import com.github.patrickianwilson.thirdparty.kubernetes.model.IoK8sApimachineryPkgApisMetaV1OwnerReference;
 import com.google.gson.TypeAdapter;
@@ -26,10 +27,6 @@ import io.swagger.annotations.ApiModelProperty;
 import org.joda.time.DateTime;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 /**
  * ObjectMeta is metadata that all persisted resources must have, which includes all objects users must create.
@@ -44,13 +41,13 @@ public class IoK8sApimachineryPkgApisMetaV1ObjectMeta {
   private String clusterName = null;
 
   @SerializedName("creationTimestamp")
-  private DateTime creationTimestamp = null;
+  private String creationTimestamp = null;
 
   @SerializedName("deletionGracePeriodSeconds")
   private Long deletionGracePeriodSeconds = null;
 
   @SerializedName("deletionTimestamp")
-  private DateTime deletionTimestamp = null;
+  private String deletionTimestamp = null;
 
   @SerializedName("finalizers")
   private List<String> finalizers = null;
@@ -129,7 +126,7 @@ public class IoK8sApimachineryPkgApisMetaV1ObjectMeta {
     this.clusterName = clusterName;
   }
 
-  public IoK8sApimachineryPkgApisMetaV1ObjectMeta creationTimestamp(DateTime creationTimestamp) {
+  public IoK8sApimachineryPkgApisMetaV1ObjectMeta creationTimestamp(String creationTimestamp) {
     this.creationTimestamp = creationTimestamp;
     return this;
   }
@@ -139,11 +136,11 @@ public class IoK8sApimachineryPkgApisMetaV1ObjectMeta {
    * @return creationTimestamp
   **/
   @ApiModelProperty(value = "CreationTimestamp is a timestamp representing the server time when this object was created. It is not guaranteed to be set in happens-before order across separate operations. Clients may not set this value. It is represented in RFC3339 form and is in UTC.  Populated by the system. Read-only. Null for lists. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata")
-  public DateTime getCreationTimestamp() {
+  public String getCreationTimestamp() {
     return creationTimestamp;
   }
 
-  public void setCreationTimestamp(DateTime creationTimestamp) {
+  public void setCreationTimestamp(String creationTimestamp) {
     this.creationTimestamp = creationTimestamp;
   }
 
@@ -165,7 +162,7 @@ public class IoK8sApimachineryPkgApisMetaV1ObjectMeta {
     this.deletionGracePeriodSeconds = deletionGracePeriodSeconds;
   }
 
-  public IoK8sApimachineryPkgApisMetaV1ObjectMeta deletionTimestamp(DateTime deletionTimestamp) {
+  public IoK8sApimachineryPkgApisMetaV1ObjectMeta deletionTimestamp(String deletionTimestamp) {
     this.deletionTimestamp = deletionTimestamp;
     return this;
   }
@@ -175,11 +172,11 @@ public class IoK8sApimachineryPkgApisMetaV1ObjectMeta {
    * @return deletionTimestamp
   **/
   @ApiModelProperty(value = "DeletionTimestamp is RFC 3339 date and time at which this resource will be deleted. This field is set by the server when a graceful deletion is requested by the user, and is not directly settable by a client. The resource is expected to be deleted (no longer visible from resource lists, and not reachable by name) after the time in this field. Once set, this value may not be unset or be set further into the future, although it may be shortened or the resource may be deleted prior to this time. For example, a user may request that a pod is deleted in 30 seconds. The Kubelet will react by sending a graceful termination signal to the containers in the pod. After that 30 seconds, the Kubelet will send a hard termination signal (SIGKILL) to the container and after cleanup, remove the pod from the API. In the presence of network partitions, this object may still exist after this timestamp, until an administrator or automated process can determine the resource is fully terminated. If not set, graceful deletion of the object has not been requested.  Populated by the system when a graceful deletion is requested. Read-only. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata")
-  public DateTime getDeletionTimestamp() {
+  public String getDeletionTimestamp() {
     return deletionTimestamp;
   }
 
-  public void setDeletionTimestamp(DateTime deletionTimestamp) {
+  public void setDeletionTimestamp(String deletionTimestamp) {
     this.deletionTimestamp = deletionTimestamp;
   }
 
