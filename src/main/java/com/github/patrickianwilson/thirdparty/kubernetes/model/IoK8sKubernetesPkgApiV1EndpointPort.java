@@ -24,15 +24,15 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 
 /**
- * EndpointPort is a tuple that describes a single port.
+ * EndpointPort is a tuple that describes a single exposedPort.
  */
-@ApiModel(description = "EndpointPort is a tuple that describes a single port.")
+@ApiModel(description = "EndpointPort is a tuple that describes a single exposedPort.")
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-17T08:08:12.703-08:00")
 public class IoK8sKubernetesPkgApiV1EndpointPort {
   @SerializedName("name")
   private String name = null;
 
-  @SerializedName("port")
+  @SerializedName("exposedPort")
   private Integer port = null;
 
   @SerializedName("protocol")
@@ -44,10 +44,10 @@ public class IoK8sKubernetesPkgApiV1EndpointPort {
   }
 
    /**
-   * The name of this port (corresponds to ServicePort.Name). Must be a DNS_LABEL. Optional only if one port is defined.
+   * The name of this exposedPort (corresponds to ServicePort.Name). Must be a DNS_LABEL. Optional only if one exposedPort is defined.
    * @return name
   **/
-  @ApiModelProperty(value = "The name of this port (corresponds to ServicePort.Name). Must be a DNS_LABEL. Optional only if one port is defined.")
+  @ApiModelProperty(value = "The name of this exposedPort (corresponds to ServicePort.Name). Must be a DNS_LABEL. Optional only if one exposedPort is defined.")
   public String getName() {
     return name;
   }
@@ -62,10 +62,10 @@ public class IoK8sKubernetesPkgApiV1EndpointPort {
   }
 
    /**
-   * The port number of the endpoint.
-   * @return port
+   * The exposedPort number of the endpoint.
+   * @return exposedPort
   **/
-  @ApiModelProperty(required = true, value = "The port number of the endpoint.")
+  @ApiModelProperty(required = true, value = "The exposedPort number of the endpoint.")
   public Integer getPort() {
     return port;
   }
@@ -80,10 +80,10 @@ public class IoK8sKubernetesPkgApiV1EndpointPort {
   }
 
    /**
-   * The IP protocol for this port. Must be UDP or TCP. Default is TCP.
+   * The IP protocol for this exposedPort. Must be UDP or TCP. Default is TCP.
    * @return protocol
   **/
-  @ApiModelProperty(value = "The IP protocol for this port. Must be UDP or TCP. Default is TCP.")
+  @ApiModelProperty(value = "The IP protocol for this exposedPort. Must be UDP or TCP. Default is TCP.")
   public String getProtocol() {
     return protocol;
   }
@@ -119,7 +119,7 @@ public class IoK8sKubernetesPkgApiV1EndpointPort {
     sb.append("class IoK8sKubernetesPkgApiV1EndpointPort {\n");
     
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
-    sb.append("    port: ").append(toIndentedString(port)).append("\n");
+    sb.append("    exposedPort: ").append(toIndentedString(port)).append("\n");
     sb.append("    protocol: ").append(toIndentedString(protocol)).append("\n");
     sb.append("}");
     return sb.toString();

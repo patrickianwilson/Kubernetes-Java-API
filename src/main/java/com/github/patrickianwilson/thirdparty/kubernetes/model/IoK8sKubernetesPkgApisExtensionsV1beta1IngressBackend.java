@@ -24,9 +24,9 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 
 /**
- * IngressBackend describes all endpoints for a given service and port.
+ * IngressBackend describes all endpoints for a given service and exposedPort.
  */
-@ApiModel(description = "IngressBackend describes all endpoints for a given service and port.")
+@ApiModel(description = "IngressBackend describes all endpoints for a given service and exposedPort.")
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-17T08:08:12.703-08:00")
 public class IoK8sKubernetesPkgApisExtensionsV1beta1IngressBackend {
   @SerializedName("serviceName")
@@ -59,10 +59,10 @@ public class IoK8sKubernetesPkgApisExtensionsV1beta1IngressBackend {
   }
 
    /**
-   * Specifies the port of the referenced service.
+   * Specifies the exposedPort of the referenced service.
    * @return servicePort
   **/
-  @ApiModelProperty(required = true, value = "Specifies the port of the referenced service.")
+  @ApiModelProperty(required = true, value = "Specifies the exposedPort of the referenced service.")
   public String getServicePort() {
     return servicePort;
   }

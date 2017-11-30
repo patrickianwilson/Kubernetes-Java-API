@@ -27,9 +27,9 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 
 /**
- * Service is a named abstraction of software service (for example, mysql) consisting of local port (for example 3306) that the proxy listens on, and the selector that determines which pods will answer requests sent through the proxy.
+ * Service is a named abstraction of software service (for example, mysql) consisting of local exposedPort (for example 3306) that the proxy listens on, and the selector that determines which pods will answer requests sent through the proxy.
  */
-@ApiModel(description = "Service is a named abstraction of software service (for example, mysql) consisting of local port (for example 3306) that the proxy listens on, and the selector that determines which pods will answer requests sent through the proxy.")
+@ApiModel(description = "Service is a named abstraction of software service (for example, mysql) consisting of local exposedPort (for example 3306) that the proxy listens on, and the selector that determines which pods will answer requests sent through the proxy.")
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-17T08:08:12.703-08:00")
 public class IoK8sKubernetesPkgApiV1Service {
   @SerializedName("apiVersion")

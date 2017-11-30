@@ -24,9 +24,9 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 
 /**
- * ContainerPort represents a network port in a single container.
+ * ContainerPort represents a network exposedPort in a single container.
  */
-@ApiModel(description = "ContainerPort represents a network port in a single container.")
+@ApiModel(description = "ContainerPort represents a network exposedPort in a single container.")
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-17T08:08:12.703-08:00")
 public class IoK8sKubernetesPkgApiV1ContainerPort {
   @SerializedName("containerPort")
@@ -50,10 +50,10 @@ public class IoK8sKubernetesPkgApiV1ContainerPort {
   }
 
    /**
-   * Number of port to expose on the pod&#39;s IP address. This must be a valid port number, 0 &lt; x &lt; 65536.
+   * Number of exposedPort to expose on the pod&#39;s IP address. This must be a valid exposedPort number, 0 &lt; x &lt; 65536.
    * @return containerPort
   **/
-  @ApiModelProperty(required = true, value = "Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.")
+  @ApiModelProperty(required = true, value = "Number of exposedPort to expose on the pod's IP address. This must be a valid exposedPort number, 0 < x < 65536.")
   public Integer getContainerPort() {
     return containerPort;
   }
@@ -68,10 +68,10 @@ public class IoK8sKubernetesPkgApiV1ContainerPort {
   }
 
    /**
-   * What host IP to bind the external port to.
+   * What host IP to bind the external exposedPort to.
    * @return hostIP
   **/
-  @ApiModelProperty(value = "What host IP to bind the external port to.")
+  @ApiModelProperty(value = "What host IP to bind the external exposedPort to.")
   public String getHostIP() {
     return hostIP;
   }
@@ -86,10 +86,10 @@ public class IoK8sKubernetesPkgApiV1ContainerPort {
   }
 
    /**
-   * Number of port to expose on the host. If specified, this must be a valid port number, 0 &lt; x &lt; 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
+   * Number of exposedPort to expose on the host. If specified, this must be a valid exposedPort number, 0 &lt; x &lt; 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
    * @return hostPort
   **/
-  @ApiModelProperty(value = "Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.")
+  @ApiModelProperty(value = "Number of exposedPort to expose on the host. If specified, this must be a valid exposedPort number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.")
   public Integer getHostPort() {
     return hostPort;
   }
@@ -104,10 +104,10 @@ public class IoK8sKubernetesPkgApiV1ContainerPort {
   }
 
    /**
-   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
+   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named exposedPort in a pod must have a unique name. Name for the exposedPort that can be referred to by services.
    * @return name
   **/
-  @ApiModelProperty(value = "If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.")
+  @ApiModelProperty(value = "If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named exposedPort in a pod must have a unique name. Name for the exposedPort that can be referred to by services.")
   public String getName() {
     return name;
   }
@@ -122,10 +122,10 @@ public class IoK8sKubernetesPkgApiV1ContainerPort {
   }
 
    /**
-   * Protocol for port. Must be UDP or TCP. Defaults to \&quot;TCP\&quot;.
+   * Protocol for exposedPort. Must be UDP or TCP. Defaults to \&quot;TCP\&quot;.
    * @return protocol
   **/
-  @ApiModelProperty(value = "Protocol for port. Must be UDP or TCP. Defaults to \"TCP\".")
+  @ApiModelProperty(value = "Protocol for exposedPort. Must be UDP or TCP. Defaults to \"TCP\".")
   public String getProtocol() {
     return protocol;
   }

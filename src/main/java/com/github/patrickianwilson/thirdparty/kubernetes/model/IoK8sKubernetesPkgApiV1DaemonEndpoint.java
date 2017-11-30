@@ -39,7 +39,7 @@ public class IoK8sKubernetesPkgApiV1DaemonEndpoint {
 
    /**
    * Port number of the given endpoint.
-   * @return port
+   * @return exposedPort
   **/
   @ApiModelProperty(required = true, value = "Port number of the given endpoint.")
   public Integer getPort() {
@@ -74,7 +74,7 @@ public class IoK8sKubernetesPkgApiV1DaemonEndpoint {
     StringBuilder sb = new StringBuilder();
     sb.append("class IoK8sKubernetesPkgApiV1DaemonEndpoint {\n");
     
-    sb.append("    port: ").append(toIndentedString(port)).append("\n");
+    sb.append("    exposedPort: ").append(toIndentedString(port)).append("\n");
     sb.append("}");
     return sb.toString();
   }

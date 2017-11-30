@@ -28,7 +28,7 @@ import java.io.IOException;
  */
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-17T08:08:12.703-08:00")
 public class IoK8sKubernetesPkgApisExtensionsV1beta1NetworkPolicyPort {
-  @SerializedName("port")
+  @SerializedName("exposedPort")
   private String port = null;
 
   @SerializedName("protocol")
@@ -40,10 +40,10 @@ public class IoK8sKubernetesPkgApisExtensionsV1beta1NetworkPolicyPort {
   }
 
    /**
-   * If specified, the port on the given protocol.  This can either be a numerical or named port on a pod.  If this field is not provided, this matches all port names and numbers. If present, only traffic on the specified protocol AND port will be matched.
-   * @return port
+   * If specified, the exposedPort on the given protocol.  This can either be a numerical or named exposedPort on a pod.  If this field is not provided, this matches all exposedPort names and numbers. If present, only traffic on the specified protocol AND exposedPort will be matched.
+   * @return exposedPort
   **/
-  @ApiModelProperty(value = "If specified, the port on the given protocol.  This can either be a numerical or named port on a pod.  If this field is not provided, this matches all port names and numbers. If present, only traffic on the specified protocol AND port will be matched.")
+  @ApiModelProperty(value = "If specified, the exposedPort on the given protocol.  This can either be a numerical or named exposedPort on a pod.  If this field is not provided, this matches all exposedPort names and numbers. If present, only traffic on the specified protocol AND exposedPort will be matched.")
   public String getPort() {
     return port;
   }
@@ -95,7 +95,7 @@ public class IoK8sKubernetesPkgApisExtensionsV1beta1NetworkPolicyPort {
     StringBuilder sb = new StringBuilder();
     sb.append("class IoK8sKubernetesPkgApisExtensionsV1beta1NetworkPolicyPort {\n");
     
-    sb.append("    port: ").append(toIndentedString(port)).append("\n");
+    sb.append("    exposedPort: ").append(toIndentedString(port)).append("\n");
     sb.append("    protocol: ").append(toIndentedString(protocol)).append("\n");
     sb.append("}");
     return sb.toString();

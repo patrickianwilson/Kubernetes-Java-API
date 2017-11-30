@@ -184,10 +184,10 @@ public class IoK8sKubernetesPkgApiV1ISCSIVolumeSource {
   }
 
    /**
-   * iSCSI target portal List. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
+   * iSCSI target portal List. The portal is either an IP or ip_addr:exposedPort if the exposedPort is other than default (typically TCP ports 860 and 3260).
    * @return portals
   **/
-  @ApiModelProperty(value = "iSCSI target portal List. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).")
+  @ApiModelProperty(value = "iSCSI target portal List. The portal is either an IP or ip_addr:exposedPort if the exposedPort is other than default (typically TCP ports 860 and 3260).")
   public List<String> getPortals() {
     return portals;
   }
@@ -238,10 +238,10 @@ public class IoK8sKubernetesPkgApiV1ISCSIVolumeSource {
   }
 
    /**
-   * iSCSI target portal. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
+   * iSCSI target portal. The portal is either an IP or ip_addr:exposedPort if the exposedPort is other than default (typically TCP ports 860 and 3260).
    * @return targetPortal
   **/
-  @ApiModelProperty(required = true, value = "iSCSI target portal. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).")
+  @ApiModelProperty(required = true, value = "iSCSI target portal. The portal is either an IP or ip_addr:exposedPort if the exposedPort is other than default (typically TCP ports 860 and 3260).")
   public String getTargetPortal() {
     return targetPortal;
   }

@@ -41,7 +41,7 @@ public class IoK8sKubernetesPkgApiV1HTTPGetAction {
   @SerializedName("path")
   private String path = null;
 
-  @SerializedName("port")
+  @SerializedName("exposedPort")
   private String port = null;
 
   @SerializedName("scheme")
@@ -115,10 +115,10 @@ public class IoK8sKubernetesPkgApiV1HTTPGetAction {
   }
 
    /**
-   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
-   * @return port
+   * Name or number of the exposedPort to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
+   * @return exposedPort
   **/
-  @ApiModelProperty(required = true, value = "Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.")
+  @ApiModelProperty(required = true, value = "Name or number of the exposedPort to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.")
   public String getPort() {
     return port;
   }
@@ -176,7 +176,7 @@ public class IoK8sKubernetesPkgApiV1HTTPGetAction {
     sb.append("    host: ").append(toIndentedString(host)).append("\n");
     sb.append("    httpHeaders: ").append(toIndentedString(httpHeaders)).append("\n");
     sb.append("    path: ").append(toIndentedString(path)).append("\n");
-    sb.append("    port: ").append(toIndentedString(port)).append("\n");
+    sb.append("    exposedPort: ").append(toIndentedString(port)).append("\n");
     sb.append("    scheme: ").append(toIndentedString(scheme)).append("\n");
     sb.append("}");
     return sb.toString();

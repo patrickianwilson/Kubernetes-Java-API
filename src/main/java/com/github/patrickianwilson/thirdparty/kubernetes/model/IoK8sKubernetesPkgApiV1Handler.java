@@ -83,10 +83,10 @@ public class IoK8sKubernetesPkgApiV1Handler {
   }
 
    /**
-   * TCPSocket specifies an action involving a TCP port. TCP hooks not yet supported
+   * TCPSocket specifies an action involving a TCP exposedPort. TCP hooks not yet supported
    * @return tcpSocket
   **/
-  @ApiModelProperty(value = "TCPSocket specifies an action involving a TCP port. TCP hooks not yet supported")
+  @ApiModelProperty(value = "TCPSocket specifies an action involving a TCP exposedPort. TCP hooks not yet supported")
   public IoK8sKubernetesPkgApiV1TCPSocketAction getTcpSocket() {
     return tcpSocket;
   }

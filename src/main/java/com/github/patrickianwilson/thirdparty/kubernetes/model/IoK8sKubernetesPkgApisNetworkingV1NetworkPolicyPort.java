@@ -24,12 +24,12 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 
 /**
- * NetworkPolicyPort describes a port to allow traffic on
+ * NetworkPolicyPort describes a exposedPort to allow traffic on
  */
-@ApiModel(description = "NetworkPolicyPort describes a port to allow traffic on")
+@ApiModel(description = "NetworkPolicyPort describes a exposedPort to allow traffic on")
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-17T08:08:12.703-08:00")
 public class IoK8sKubernetesPkgApisNetworkingV1NetworkPolicyPort {
-  @SerializedName("port")
+  @SerializedName("exposedPort")
   private String port = null;
 
   @SerializedName("protocol")
@@ -41,10 +41,10 @@ public class IoK8sKubernetesPkgApisNetworkingV1NetworkPolicyPort {
   }
 
    /**
-   * The port on the given protocol. This can either be a numerical or named port on a pod. If this field is not provided, this matches all port names and numbers.
-   * @return port
+   * The exposedPort on the given protocol. This can either be a numerical or named exposedPort on a pod. If this field is not provided, this matches all exposedPort names and numbers.
+   * @return exposedPort
   **/
-  @ApiModelProperty(value = "The port on the given protocol. This can either be a numerical or named port on a pod. If this field is not provided, this matches all port names and numbers.")
+  @ApiModelProperty(value = "The exposedPort on the given protocol. This can either be a numerical or named exposedPort on a pod. If this field is not provided, this matches all exposedPort names and numbers.")
   public String getPort() {
     return port;
   }
@@ -96,7 +96,7 @@ public class IoK8sKubernetesPkgApisNetworkingV1NetworkPolicyPort {
     StringBuilder sb = new StringBuilder();
     sb.append("class IoK8sKubernetesPkgApisNetworkingV1NetworkPolicyPort {\n");
     
-    sb.append("    port: ").append(toIndentedString(port)).append("\n");
+    sb.append("    exposedPort: ").append(toIndentedString(port)).append("\n");
     sb.append("    protocol: ").append(toIndentedString(protocol)).append("\n");
     sb.append("}");
     return sb.toString();

@@ -101,10 +101,10 @@ public class IoK8sKubernetesPkgApisExtensionsV1beta1IngressSpec {
   }
 
    /**
-   * TLS configuration. Currently the Ingress only supports a single TLS port, 443. If multiple members of this list specify different hosts, they will be multiplexed on the same port according to the hostname specified through the SNI TLS extension, if the ingress controller fulfilling the ingress supports SNI.
+   * TLS configuration. Currently the Ingress only supports a single TLS exposedPort, 443. If multiple members of this list specify different hosts, they will be multiplexed on the same exposedPort according to the hostname specified through the SNI TLS extension, if the ingress controller fulfilling the ingress supports SNI.
    * @return tls
   **/
-  @ApiModelProperty(value = "TLS configuration. Currently the Ingress only supports a single TLS port, 443. If multiple members of this list specify different hosts, they will be multiplexed on the same port according to the hostname specified through the SNI TLS extension, if the ingress controller fulfilling the ingress supports SNI.")
+  @ApiModelProperty(value = "TLS configuration. Currently the Ingress only supports a single TLS exposedPort, 443. If multiple members of this list specify different hosts, they will be multiplexed on the same exposedPort according to the hostname specified through the SNI TLS extension, if the ingress controller fulfilling the ingress supports SNI.")
   public List<IoK8sKubernetesPkgApisExtensionsV1beta1IngressTLS> getTls() {
     return tls;
   }

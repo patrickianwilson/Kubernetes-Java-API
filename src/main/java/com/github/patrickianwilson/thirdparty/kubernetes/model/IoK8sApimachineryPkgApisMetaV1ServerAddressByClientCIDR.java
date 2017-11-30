@@ -59,10 +59,10 @@ public class IoK8sApimachineryPkgApisMetaV1ServerAddressByClientCIDR {
   }
 
    /**
-   * Address of this server, suitable for a client that matches the above CIDR. This can be a hostname, hostname:port, IP or IP:port.
+   * Address of this server, suitable for a client that matches the above CIDR. This can be a hostname, hostname:exposedPort, IP or IP:exposedPort.
    * @return serverAddress
   **/
-  @ApiModelProperty(required = true, value = "Address of this server, suitable for a client that matches the above CIDR. This can be a hostname, hostname:port, IP or IP:port.")
+  @ApiModelProperty(required = true, value = "Address of this server, suitable for a client that matches the above CIDR. This can be a hostname, hostname:exposedPort, IP or IP:exposedPort.")
   public String getServerAddress() {
     return serverAddress;
   }

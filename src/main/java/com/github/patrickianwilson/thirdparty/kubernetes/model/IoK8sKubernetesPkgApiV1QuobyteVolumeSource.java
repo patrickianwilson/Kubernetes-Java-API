@@ -86,10 +86,10 @@ public class IoK8sKubernetesPkgApiV1QuobyteVolumeSource {
   }
 
    /**
-   * Registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
+   * Registry represents a single or multiple Quobyte Registry services specified as a string as host:exposedPort pair (multiple entries are separated with commas) which acts as the central registry for volumes
    * @return registry
   **/
-  @ApiModelProperty(required = true, value = "Registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes")
+  @ApiModelProperty(required = true, value = "Registry represents a single or multiple Quobyte Registry services specified as a string as host:exposedPort pair (multiple entries are separated with commas) which acts as the central registry for volumes")
   public String getRegistry() {
     return registry;
   }

@@ -32,7 +32,7 @@ public class IoK8sKubernetesPkgApiV1TCPSocketAction {
   @SerializedName("host")
   private String host = null;
 
-  @SerializedName("port")
+  @SerializedName("exposedPort")
   private String port = null;
 
   public IoK8sKubernetesPkgApiV1TCPSocketAction host(String host) {
@@ -59,10 +59,10 @@ public class IoK8sKubernetesPkgApiV1TCPSocketAction {
   }
 
    /**
-   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
-   * @return port
+   * Number or name of the exposedPort to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
+   * @return exposedPort
   **/
-  @ApiModelProperty(required = true, value = "Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.")
+  @ApiModelProperty(required = true, value = "Number or name of the exposedPort to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.")
   public String getPort() {
     return port;
   }
@@ -97,7 +97,7 @@ public class IoK8sKubernetesPkgApiV1TCPSocketAction {
     sb.append("class IoK8sKubernetesPkgApiV1TCPSocketAction {\n");
     
     sb.append("    host: ").append(toIndentedString(host)).append("\n");
-    sb.append("    port: ").append(toIndentedString(port)).append("\n");
+    sb.append("    exposedPort: ").append(toIndentedString(port)).append("\n");
     sb.append("}");
     return sb.toString();
   }

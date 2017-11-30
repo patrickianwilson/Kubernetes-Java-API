@@ -4,7 +4,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**port** | **Integer** | Port number of the given endpoint. | 
+**exposedPort** | **Integer** | Port number of the given endpoint. | 
 
 
 
