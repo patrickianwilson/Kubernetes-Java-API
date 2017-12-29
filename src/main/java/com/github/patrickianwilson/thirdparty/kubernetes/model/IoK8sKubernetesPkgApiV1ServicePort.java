@@ -24,9 +24,9 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 
 /**
- * ServicePort contains information on service&#39;s exposedPort.
+ * ServicePort contains information on service&#39;s port.
  */
-@ApiModel(description = "ServicePort contains information on service's exposedPort.")
+@ApiModel(description = "ServicePort contains information on service's port.")
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-17T08:08:12.703-08:00")
 public class IoK8sKubernetesPkgApiV1ServicePort {
   @SerializedName("name")
@@ -35,13 +35,13 @@ public class IoK8sKubernetesPkgApiV1ServicePort {
   @SerializedName("nodePort")
   private Integer nodePort = null;
 
-  @SerializedName("exposedPort")
+  @SerializedName("port")
   private Integer port = null;
 
   @SerializedName("protocol")
   private String protocol = null;
 
-  @SerializedName("containerPort")
+  @SerializedName("targetPort")
   private Integer targetPort = null;
 
   public IoK8sKubernetesPkgApiV1ServicePort name(String name) {
@@ -50,10 +50,10 @@ public class IoK8sKubernetesPkgApiV1ServicePort {
   }
 
    /**
-   * The name of this exposedPort within the service. This must be a DNS_LABEL. All ports within a ServiceSpec must have unique names. This maps to the &#39;Name&#39; field in EndpointPort objects. Optional if only one ServicePort is defined on this service.
+   * The name of this port within the service. This must be a DNS_LABEL. All ports within a ServiceSpec must have unique names. This maps to the &#39;Name&#39; field in EndpointPort objects. Optional if only one ServicePort is defined on this service.
    * @return name
   **/
-  @ApiModelProperty(value = "The name of this exposedPort within the service. This must be a DNS_LABEL. All ports within a ServiceSpec must have unique names. This maps to the 'Name' field in EndpointPort objects. Optional if only one ServicePort is defined on this service.")
+  @ApiModelProperty(value = "The name of this port within the service. This must be a DNS_LABEL. All ports within a ServiceSpec must have unique names. This maps to the 'Name' field in EndpointPort objects. Optional if only one ServicePort is defined on this service.")
   public String getName() {
     return name;
   }
@@ -68,10 +68,10 @@ public class IoK8sKubernetesPkgApiV1ServicePort {
   }
 
    /**
-   * The exposedPort on each node on which this service is exposed when type&#x3D;NodePort or LoadBalancer. Usually assigned by the system. If specified, it will be allocated to the service if unused or else creation of the service will fail. Default is to auto-allocate a exposedPort if the ServiceType of this Service requires one. More info: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
+   * The port on each node on which this service is exposed when type&#x3D;NodePort or LoadBalancer. Usually assigned by the system. If specified, it will be allocated to the service if unused or else creation of the service will fail. Default is to auto-allocate a port if the ServiceType of this Service requires one. More info: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
    * @return nodePort
   **/
-  @ApiModelProperty(value = "The exposedPort on each node on which this service is exposed when type=NodePort or LoadBalancer. Usually assigned by the system. If specified, it will be allocated to the service if unused or else creation of the service will fail. Default is to auto-allocate a exposedPort if the ServiceType of this Service requires one. More info: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport")
+  @ApiModelProperty(value = "The port on each node on which this service is exposed when type=NodePort or LoadBalancer. Usually assigned by the system. If specified, it will be allocated to the service if unused or else creation of the service will fail. Default is to auto-allocate a port if the ServiceType of this Service requires one. More info: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport")
   public Integer getNodePort() {
     return nodePort;
   }
@@ -86,10 +86,10 @@ public class IoK8sKubernetesPkgApiV1ServicePort {
   }
 
    /**
-   * The exposedPort that will be exposed by this service.
-   * @return exposedPort
+   * The port that will be exposed by this service.
+   * @return port
   **/
-  @ApiModelProperty(required = true, value = "The exposedPort that will be exposed by this service.")
+  @ApiModelProperty(required = true, value = "The port that will be exposed by this service.")
   public Integer getPort() {
     return port;
   }
@@ -104,10 +104,10 @@ public class IoK8sKubernetesPkgApiV1ServicePort {
   }
 
    /**
-   * The IP protocol for this exposedPort. Supports \&quot;TCP\&quot; and \&quot;UDP\&quot;. Default is TCP.
+   * The IP protocol for this port. Supports \&quot;TCP\&quot; and \&quot;UDP\&quot;. Default is TCP.
    * @return protocol
   **/
-  @ApiModelProperty(value = "The IP protocol for this exposedPort. Supports \"TCP\" and \"UDP\". Default is TCP.")
+  @ApiModelProperty(value = "The IP protocol for this port. Supports \"TCP\" and \"UDP\". Default is TCP.")
   public String getProtocol() {
     return protocol;
   }
@@ -116,16 +116,12 @@ public class IoK8sKubernetesPkgApiV1ServicePort {
     this.protocol = protocol;
   }
 
-  public IoK8sKubernetesPkgApiV1ServicePort targetPort(Integer targetPort) {
-    this.targetPort = targetPort;
-    return this;
-  }
 
    /**
-   * Number or name of the exposedPort to access on the pods targeted by the service. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME. If this is a string, it will be looked up as a named exposedPort in the target Pod&#39;s container ports. If this is not specified, the value of the &#39;exposedPort&#39; field is used (an identity map). This field is ignored for services with clusterIP&#x3D;None, and should be omitted or set equal to the &#39;exposedPort&#39; field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service
-   * @return containerPort
+   * Number or name of the port to access on the pods targeted by the service. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME. If this is a string, it will be looked up as a named port in the target Pod&#39;s container ports. If this is not specified, the value of the &#39;port&#39; field is used (an identity map). This field is ignored for services with clusterIP&#x3D;None, and should be omitted or set equal to the &#39;port&#39; field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service
+   * @return targetPort
   **/
-  @ApiModelProperty(value = "Number or name of the exposedPort to access on the pods targeted by the service. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME. If this is a string, it will be looked up as a named exposedPort in the target Pod's container ports. If this is not specified, the value of the 'exposedPort' field is used (an identity map). This field is ignored for services with clusterIP=None, and should be omitted or set equal to the 'exposedPort' field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service")
+  @ApiModelProperty(value = "Number or name of the port to access on the pods targeted by the service. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME. If this is a string, it will be looked up as a named port in the target Pod's container ports. If this is not specified, the value of the 'port' field is used (an identity map). This field is ignored for services with clusterIP=None, and should be omitted or set equal to the 'port' field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service")
   public Integer getTargetPort() {
     return targetPort;
   }
@@ -164,9 +160,9 @@ public class IoK8sKubernetesPkgApiV1ServicePort {
     
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
     sb.append("    nodePort: ").append(toIndentedString(nodePort)).append("\n");
-    sb.append("    exposedPort: ").append(toIndentedString(port)).append("\n");
+    sb.append("    port: ").append(toIndentedString(port)).append("\n");
     sb.append("    protocol: ").append(toIndentedString(protocol)).append("\n");
-    sb.append("    containerPort: ").append(toIndentedString(targetPort)).append("\n");
+    sb.append("    targetPort: ").append(toIndentedString(targetPort)).append("\n");
     sb.append("}");
     return sb.toString();
   }
